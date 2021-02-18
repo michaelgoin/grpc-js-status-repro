@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.something.v1;
+
+service MyService {
+  rpc RecordItem(stream Item) returns (stream RecordStatus) {}
+}
+
+message Item {
+  string name = 1;
+}
+
+message RecordStatus {
+  uint64 messages_seen = 1;
+}

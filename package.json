@@ -1,0 +1,24 @@
+{
+  "name": "grpc-js-status-repro",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgoin/grpc-js-status-repro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgoin/grpc-js-status-repro/issues"
+  },
+  "homepage": "https://github.com/michaelgoin/grpc-js-status-repro#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.2.8",
+    "@grpc/proto-loader": "^0.5.6",
+    "tap": "^14.11.0"
+  }
+}
